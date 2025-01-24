@@ -1,33 +1,32 @@
 public class Statistics {
 
-    public static int JamesStats(int JamesDice){
+    public static int P1Stats(int P1Dice){
         int faces = 6;
-        int outcomeJames = 0;
+        int outcomeP1 = 0;
 
-        for (int i = 0; i < JamesDice; i++) {
-            outcomeJames += (int) (Math.random() * faces) + 1;
+        for (int i = 0; i < P1Dice; i++) {
+            outcomeP1 += (int) (Math.random() * faces) + 1;
         }
-        return outcomeJames;
+        return outcomeP1;
     }
 
-    public static int SarahStats(int SarahDice) {
+    public static int P2Stats(int P2Dice) {
         int faces = 6;
-        int outcomeSarah = 0;
+        int outcomeP2 = 0;
 
-        for (int i = 0; i < SarahDice; i++) {
-            outcomeSarah += (int) (Math.random() * faces) + 1;
+        for (int i = 0; i < P2Dice; i++) {
+            outcomeP2 += (int) (Math.random() * faces) + 1;
         }
-        return outcomeSarah;// use for loop instead
+        return outcomeP2;// use for loop instead
     }
 
-    public static int CianStats(int CianDice){
+    public static int P3Stats(int P3Dice){
         int faces = 6;
-        int outcomeCian = 0;
+        int outcomeP3 = 0;
 
-        for (int i = 0; i < CianDice; i++) {
-            outcomeCian += (int) (Math.random() * faces) + 1;
+        for (int i = 0; i < P3Dice; i++) {
+            outcomeP3 += (int) (Math.random() * faces) + 1;
         }
-        return outcomeCian;
+        return outcomeP3;
     }
-
 }
